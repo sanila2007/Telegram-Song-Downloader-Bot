@@ -2,7 +2,7 @@
 You can download songs from telegram using this bot
 
   
-<ins> Deployment Methods</ins>
+# Deployment Methods
 
 ### Heroku
 
