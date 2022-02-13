@@ -100,7 +100,7 @@ class Chat:
         pass
 
     def process_request(self, user_input):
-        result = song.search_music(self, user_input[6:])
+        result = song.search_song(self, user_input[6:])
 
         min_duration, split_count = song.get_duration(self, result)
 
@@ -111,7 +111,7 @@ class Chat:
             self.send_message(f"🎵 {song.get_title(self, result)}\n🔗 {song.get_link(self, result)}")
             downloading_message = self.send_message('⬇️ Downloading... \n_(this may take a while.)_')
 
-            Music.download_song(self, file_name, song.get_link(self, result))
+            song.download_song(self, file_name, song.get_link(self, result))
 
             try:
                 self.send_audio(file_name)
