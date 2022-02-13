@@ -61,10 +61,10 @@ class Chat:
 
         self.messages = {
             'start':'🤖 Hello, '+ self.user_name +'!\n\n'
-                    '📩 Send me:\n\n'
-                    '"*/song* _song name_"  or\n'
-                    '"*/song* _musician name - song name_"\n\n'
-                    'to order some music. 🎶',
+                    '📩 I can download songs for you. Just send me the song name in below format:\n\n'
+                    '"*/song*  _song name_"  or\n'
+                    '"*/song*  _musician name - song name_"\n\n'
+                    'to download some songs. 🎶',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
