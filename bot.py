@@ -55,24 +55,24 @@ class Chat:
     def __init__(self, msg):
         self.chat_id = msg['chat']['id']
         self.user_input = msg['text']
-        self.user_input = self.user_input.replace('@TLMusicDownloader_bot', '')
+        self.user_input = self.user_input.replace('@songdownload597_bot', '')
         self.user_name = msg['from']['first_name']
         self.message_id = msg['message_id']
 
         self.messages = {
             'start':'🤖 Hello, '+ self.user_name +'!\n\n'
                     '📩 Send me:\n\n'
-                    '"*/music* _song name_"  or\n'
-                    '"*/music* _musician name - song name_"\n\n'
+                    '"*/song* _song name_"  or\n'
+                    '"*/song* _musician name - song name_"\n\n'
                     'to order some music. 🎶',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
-                    'Try: "*/music* _song name_"\n'
-                    'or: "*/music* _musician name - song name_"',
+                    'Try: "*/song* _song name_"\n'
+                    'or: "*/song* _musician name - song name_"',
 
             'invalid_command':'‼️ *Oops! Invalid command!*\n'
-                    'Try: "*/music* _song name_"\n'
-                    'or: "*/music* _musician name - song name_"',
+                    'Try: "*/song* _song name_"\n'
+                    'or: "*/song* _musician name - song name_"',
 
             'too_long':'‼️ *Oops! Video too long to convert!*\n'
                     'Order something 30 minutes or less.'
