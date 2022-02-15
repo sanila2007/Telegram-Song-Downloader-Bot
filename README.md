@@ -69,18 +69,27 @@ class Chat:
 
 ## Screenshots
 <br>
-<img src="">
+<img src="Screenshot (20).png">
 <br>
-<img src="">
+<img src="Screenshot (18).png">
 <br>
-<img src="">
+<img src="Screenshot (19).png">
 
+## What's New in this version 1.9v✨
+ - Increase the downoading speed by x3🚅
+ - Added youtube link🔗
+ - Added a greet message after complete downloading📩
+ - Minor bug fixes📶
+ - Optimizations
 
-
-
+<br>
 
 ## Deployment Methods
 
 ### Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sanila2007/Telegram-Song-Downloader-Bot)
+
+## Developer 🤗
+
+[Sanila Ranatunga](https://github.com/sanila2007)
