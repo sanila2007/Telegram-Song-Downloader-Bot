@@ -76,11 +76,11 @@ class Chat:
 <img src="Screenshot (19).png">
 
 ## What's New in this version 1.9v✨
- - Increase the downoading speed by x3🚅
+ - Increased the downoading speed by x2🚅
  - Added youtube link🔗
  - Added a greet message after complete downloading📩
- - Minor bug fixes📶
- - Optimizations
+ - Minor bug fixes🔎
+ - Optimizations🔃
 
 <br>
 
