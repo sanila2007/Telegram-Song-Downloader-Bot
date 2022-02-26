@@ -114,7 +114,9 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message('✅ Song downloaded!\nFeel the song🎵')
+                self.send_message('😙Song downloaded!\nFeel the song🎵\nDeveloper : [Sanila Ranatunga✨](https://github.com/sanila2007)'),
+                                parse_mode="markdown"
+                    )
                 print("\nDownloaded successfully!\n")
 
             except:
