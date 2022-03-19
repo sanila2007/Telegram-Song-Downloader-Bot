@@ -64,7 +64,7 @@ class Chat:
                     '📩 I can download songs for you. Just send me the song name in below format:\n\n'
                     '"*/song*  _song name_"  or\n'
                     '"*/song*  _musician name - song name_"\n\n'
-                    'to download some songs. 🎶\n\nDeveloper: Sanila Ranatunga\nFeedback: @sanilaassistant_bot',
+                    'to download some songs. 🎶\n\nDeveloper: Sanila Ranatunga',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
