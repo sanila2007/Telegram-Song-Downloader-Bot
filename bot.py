@@ -64,19 +64,29 @@ class Chat:
                     '📩 I can download songs for you. Just send me the song name in below format:\n\n'
                     '"*/song*  _song name_"  or\n'
                     '"*/song*  _musician name - song name_"\n\n'
-                    'to download some songs. 🎶\n\nDeveloper: Sanila Ranatunga\n'
-                    'Feedback: @sanilaassistant_bot',
+                    'to download some songs. 🎶\n\n'
+                    '■ 𝗜𝗳 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁 𝘄𝗼𝗿𝗸 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗹𝗲𝗮𝗿𝗻 𝗶𝘁 𝗳𝗿𝗼𝗺 @sanilaassistant_bot\n\n'
+                    '■ 𝗳𝗶𝗿𝘀𝘁 𝘀𝘁𝗮𝗿𝘁 @sanilaassistant_bot > 𝗟𝗲𝗮𝗿𝗻 𝗕𝗼𝘁𝘀 > 𝗖𝗵𝗼𝘀𝗲 𝗦𝗼𝗻𝗴 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 𝗯𝗼𝘁\n\n'
+                    '✨ Developer: Sanila Ranatunga\n'
+                    '✨ Feedback: @sanilaassistant_bot',
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
-                    'or: "*/song* _musician name - song name_"',
+                    'or: "*/song* _musician name - song name_"\n\n'
+            '■ 𝗜𝗳 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁 𝘄𝗼𝗿𝗸 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗹𝗲𝗮𝗿𝗻 𝗶𝘁 𝗳𝗿𝗼𝗺 @sanilaassistant_bot\n\n'
+            '■ 𝗳𝗶𝗿𝘀𝘁 𝘀𝘁𝗮𝗿𝘁 @sanilaassistant_bot > 𝗟𝗲𝗮𝗿𝗻 𝗕𝗼𝘁𝘀 > 𝗖𝗵𝗼𝘀𝗲 𝗦𝗼𝗻𝗴 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 𝗯𝗼𝘁',
 
             'invalid_command':'‼️ *Oops! Invalid command!*\n'
                     'Try: "*/song* _song name_"\n'
-                    'or: "*/song* _musician name - song name_"',
+                    'or: "*/song* _musician name - song name_"\n\n'
+            '■ 𝗜𝗳 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁 𝘄𝗼𝗿𝗸 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗹𝗲𝗮𝗿𝗻 𝗶𝘁 𝗳𝗿𝗼𝗺 @sanilaassistant_bot\n\n'
+            '■ 𝗳𝗶𝗿𝘀𝘁 𝘀𝘁𝗮𝗿𝘁 @sanilaassistant_bot > 𝗟𝗲𝗮𝗿𝗻 𝗕𝗼𝘁𝘀 > 𝗖𝗵𝗼𝘀𝗲 𝗦𝗼𝗻𝗴 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 𝗯𝗼𝘁',
 
             'too_long':'‼️ *Oops! Video too long to convert!*\n'
-                    'Order something 30 minutes or less.'
+                    'Order something 30 minutes or less.\n\n'
+            '■ 𝗜𝗳 𝘆𝗼𝘂 𝗰𝗮𝗻𝗻𝗼𝘁 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁 𝘄𝗼𝗿𝗸 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗹𝗲𝗮𝗿𝗻 𝗶𝘁 𝗳𝗿𝗼𝗺 @sanilaassistant_bot\n\n'
+            '■ 𝗳𝗶𝗿𝘀𝘁 𝘀𝘁𝗮𝗿𝘁 @sanilaassistant_bot > 𝗟𝗲𝗮𝗿𝗻 𝗕𝗼𝘁𝘀 > 𝗖𝗵𝗼𝘀𝗲 𝗦𝗼𝗻𝗴 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 𝗯𝗼𝘁'
+                    
 
 
         }
@@ -117,8 +127,8 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message('✅ Song downloaded successfully!\nCheck it😙\n\nDeveloper: Sanila Ranatunga\n'
-                                   'Feedback: @sanilaassistant_bot')
+                self.send_message('✅ Song downloaded successfully!\n\n⁕ eveloper: Sanila Ranatunga\n'
+                                   '⁕ Feedback: @sanilaassistant_bot')
                 print ("\nSucess!\n")
             except:
                 print("\nError")
