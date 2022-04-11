@@ -61,7 +61,7 @@ class Chat:
         self.message_id = msg['message_id']
 
         self.messages = {
-            'start': text_msg.START_TEXT_MSG
+            'start': text_msg.START_TEXT_MSG,
             
             'spotify_input_error':"‼️ *Oops! The bot doesn't support Spotify links!*\n"
                     'Try: "*/song* _song name_"\n'
