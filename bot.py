@@ -71,7 +71,7 @@ class Chat:
             'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG                    
 
 
-        }
+        }, disable_web_page_preview=True
 
         self.check_input(self.user_input, msg)
 
@@ -123,7 +123,7 @@ class Chat:
 
         elif user_input.startswith('/song') and user_input[6:]!='':
             if 'open.spotify.com' in user_input[6:]:
-                self.send_message(self.messages['spotify_input_error', disable_web_page_preview=True])
+                self.send_message(self.messages['spotify_input_error'])
 
             else:
                 #Valid command
@@ -131,7 +131,7 @@ class Chat:
 
         else:
             #Invalid command
-            self.send_message(self.messages['invalid_command', disable_web_page_preview=True])
+            self.send_message(self.messages['invalid_command'])
 
         pass 
 
