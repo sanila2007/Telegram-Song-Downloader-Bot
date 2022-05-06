@@ -62,13 +62,13 @@ class Chat:
         self.message_id = msg['message_id']
 
         self.messages = {
-            'start': text_msg.START_TEXT_MSG, disable_web_page_preview=True,
+            'start': text_msg.START_TEXT_MSG,
             
-            'spotify_input_error': text_msg.SPOTIFY_INPUT_ERROR_TEXT_MSG, disable_web_page_preview=True,
+            'spotify_input_error': text_msg.SPOTIFY_INPUT_ERROR_TEXT_MSG,
 
-            'invalid_command': text_msg.INVALID_COMMAND_ERROR_TEXT_MSG, disable_web_page_preview=True,
+            'invalid_command': text_msg.INVALID_COMMAND_ERROR_TEXT_MSG,
 
-            'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG, disable_web_page_preview=True                    
+            'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG                    
 
 
         }
@@ -123,7 +123,7 @@ class Chat:
 
         elif user_input.startswith('/song') and user_input[6:]!='':
             if 'open.spotify.com' in user_input[6:]:
-                self.send_message(self.messages['spotify_input_error'])
+                self.send_message(self.messages['spotify_input_error', disable_web_page_preview=True])
 
             else:
                 #Valid command
@@ -131,7 +131,7 @@ class Chat:
 
         else:
             #Invalid command
-            self.send_message(self.messages['invalid_command'])
+            self.send_message(self.messages['invalid_command', disable_web_page_preview=True])
 
         pass 
 
