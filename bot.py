@@ -2,6 +2,7 @@ import os
 import text_msg
 import youtube_dl
 import telepotpro
+import pyrogram
 from random import randint
 from multiprocessing import Process
 from youtubesearchpython import VideosSearch
@@ -61,13 +62,13 @@ class Chat:
         self.message_id = msg['message_id']
 
         self.messages = {
-            'start': text_msg.START_TEXT_MSG,
+            'start': text_msg.START_TEXT_MSG, disable_web_page_preview=True,
             
-            'spotify_input_error': text_msg.SPOTIFY_INPUT_ERROR_TEXT_MSG,
+            'spotify_input_error': text_msg.SPOTIFY_INPUT_ERROR_TEXT_MSG, disable_web_page_preview=True,
 
-            'invalid_command': text_msg.INVALID_COMMAND_ERROR_TEXT_MSG,
+            'invalid_command': text_msg.INVALID_COMMAND_ERROR_TEXT_MSG, disable_web_page_preview=True,
 
-            'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG                    
+            'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG, disable_web_page_preview=True                    
 
 
         }
@@ -108,7 +109,7 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message(text_msg.CONFIRMATION_TEXT_MSG)
+                self.send_message(text_msg.CONFIRMATION_TEXT_MSG, disable_web_page_preview=True)
                 print("\nSucess!\n")
             except:
                 print("\nError")
