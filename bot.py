@@ -71,7 +71,7 @@ class Chat:
             'too_long': text_msg.TOO_LONG_ERROR_TEXT_MSG                    
 
 
-        }, disable_web_page_preview=True
+        }
 
         self.check_input(self.user_input, msg)
 
