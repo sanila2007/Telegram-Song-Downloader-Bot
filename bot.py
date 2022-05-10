@@ -109,9 +109,10 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message(text_msg.CONFIRMATION_TEXT_MSG, disable_web_page_preview=True)
+                self.send_message(text_msg.CONFIRMATION_TEXT_MSG)
                 print("\nSucess!\n")
             except:
+                self.send_message("Oops!! couldn't download that song\nTry another song")
                 print("\nError")
 
             os.remove(file_name)
