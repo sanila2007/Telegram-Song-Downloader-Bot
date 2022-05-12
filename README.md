@@ -23,7 +23,7 @@
 
 `BOT_TOKEN` = Enter your bot token in sample.env when deploying it
 
-```
+```python
 sample.env
 
 TOKEN = "INSERT_YOUR_BOT_TOKEN_HERE"
@@ -32,21 +32,18 @@ TOKEN = "INSERT_YOUR_BOT_TOKEN_HERE"
 
 ## Commands
 
-```
-/start = Use this command to start the bot
 
-/song = Use this command to download songs
+`/start` = Use this command to start the bot
+
+`/song` = Use this command to download songs
                Example: /song "Enter the song name here"
 
-/help = This command is coming soon on next update...
 
-```
 <br>
 
-## You can change your /start message
+## Welcome to Song downloader bot!
 
-```
-First go to bot.py and change as your choice! But you need to fork it first and don't forget to star🌟 
+```python
 
 class Chat:
     def __init__(self, msg):
