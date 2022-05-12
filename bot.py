@@ -113,6 +113,7 @@ class Chat:
                 print("\nSucess!\n")
             except:
                self.send_message(text_msg.CONFIRMATION_TEXT_MSG, disable_web_page_preview=True)
+               print("\nError!\n")
 
             os.remove(file_name)
         pass
