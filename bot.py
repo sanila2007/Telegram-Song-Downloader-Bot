@@ -141,3 +141,4 @@ def start_new_chat(msg):
     
 
 bot.message_loop(start_new_chat, run_forever=True)
+print("Bot is alive")
